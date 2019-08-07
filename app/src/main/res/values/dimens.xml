@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textView1">40sp</dimen>
+    <dimen name="bon_muoi">40dp</dimen>
+    <dimen name="ba_muoi">30sp</dimen>
+</resources>

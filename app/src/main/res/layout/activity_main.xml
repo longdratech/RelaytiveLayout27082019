@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/bon"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bon_muoi"
+        android:paddingRight="@dimen/bon_muoi"
+        android:background="#FF0000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="@dimen/textView1"/>
+
+    <TextView
+        android:layout_toLeftOf="@id/bon"
+        android:layout_above="@id/bon"
+        android:id="@+id/ba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF008C"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bon_muoi"
+        android:paddingRight="@dimen/bon_muoi"
+        android:text="3"
+        android:textSize="@dimen/textView1" />
+    <TextView
+        android:layout_toLeftOf="@id/ba"
+        android:layout_above="@id/ba"
+        android:id="@+id/hai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF008C"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bon_muoi"
+        android:paddingRight="@dimen/bon_muoi"
+        android:text="2"
+        android:textSize="@dimen/textView1" />
+    <TextView
+        android:layout_toLeftOf="@id/hai"
+        android:layout_above="@id/hai"
+        android:id="@+id/mot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF008C"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bon_muoi"
+        android:paddingRight="@dimen/bon_muoi"
+        android:text="1"
+        android:textSize="@dimen/textView1" />
+    <TextView
+        android:layout_toLeftOf="@id/bon"
+        android:layout_below="@id/bon"
+        android:id="@+id/nam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF008C"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bon_muoi"
+        android:paddingRight="@dimen/bon_muoi"
+        android:text="5"
+        android:textSize="@dimen/textView1" />
+    <TextView
+        android:layout_toLeftOf="@id/nam"
+        android:layout_below="@id/nam"
+        android:id="@+id/sau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF008C"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bon_muoi"
+        android:paddingRight="@dimen/bon_muoi"
+        android:text="6"
+        android:textSize="@dimen/textView1" />
+    <TextView
+        android:layout_toLeftOf="@id/sau"
+        android:layout_below="@id/sau"
+        android:id="@+id/bay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF008C"
+        android:gravity="center"
+        android:paddingLeft="@dimen/bon_muoi"
+        android:paddingRight="@dimen/bon_muoi"
+        android:text="7"
+        android:textSize="@dimen/textView1" />
+
+</RelativeLayout>
